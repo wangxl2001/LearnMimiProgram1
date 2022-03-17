@@ -1,0 +1,12 @@
+<!--pages/demo2/demo2.wxml-->
+<text>pages/demo2/demo2.wxml</text>
+<view>
+  <swiper class="bannerName">
+    <block wx:for="{{banner}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item.image_src}}" mode="widthFix"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+

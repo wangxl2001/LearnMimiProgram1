@@ -1,0 +1,22 @@
+<view>
+  <button type="primary" bindtap="addData">添加</button>
+  <button type="primary" loading="true" bindtap="findData">查找</button>
+  <button bindtap="RemoveData">删除</button>
+  <button bindtap="UpdateData">查找</button>
+</view>
+
+<view>
+  <button bindtap="onChangeMsg">显示信息</button>
+  <input model:value="{{message}}" ></input>
+  <button bindtap="onChangePage">跳转页面</button>
+</view>
+
+<view>
+  <swiper class="bannerName">
+    <block wx:for="{{banners}}" wx:key="index">
+      <swiper-item>
+        <image src="{{item.image}}" mode="widthFix"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

@@ -1,0 +1,11 @@
+/* pages/demo2/demo2.wxss */
+.bannerName image {
+  width: 25%;
+  border-radius: 15rpx;
+}
+
+.bannerName {
+
+  width: 750rpx;
+  height: 750rpx;
+}
